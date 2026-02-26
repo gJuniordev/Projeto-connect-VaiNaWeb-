@@ -20,7 +20,7 @@ JavaScript (ES6+): Lógica moderna para manipulação de estados e efeitos.
 
 ---
 
-📂 # **Organização e Arquitetura**
+# 📂**Organização e Arquitetura**
 A estrutura de pastas reflete uma preocupação com a escalabilidade do código:
 
 components/: UI dividida em unidades atômicas (Header, Footer, InfoCard).
@@ -30,7 +30,7 @@ assets/: Organização de ativos estáticos divididos entre ícones e imagens.
 
 ---
 
-🔍 # **Destaques Técnicos**
+# 🔍**Destaques Técnicos**
 Nesta seção, detalho algumas soluções implementadas que demonstram o domínio de lógica e reutilização de código:
 
 🪝 Custom Hook: useClickOutside
@@ -40,14 +40,14 @@ Benefício: Melhora a experiência do usuário (UX) e evita repetição de lógi
 
 ---
 
-🍱 # **Componente: InfoCard**
+# 🍱**Componente: InfoCard**
 Um componente versátil e estilizado via SCSS Modules.
 Flexibilidade: Projetado para receber diferentes conteúdos e ícones, sendo utilizado em diversas áreas da plataforma (Mentoria, Voluntariado, etc).
 Encapsulamento: O uso de .module.scss garante que o design do card seja consistente e imune a vazamentos de estilo globais.
 
 ---
 
-🚀 # **Como Executar o Projeto**
+# 🚀**Como Executar o Projeto**
 Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/plataforma-connect.git
@@ -65,5 +65,5 @@ npm run dev
 
 ---
 
-🤝 # **Autor**
+# 🤝**Autor**
 Desenvolvido por Gilcélio Júnior – Aula Vai na Web

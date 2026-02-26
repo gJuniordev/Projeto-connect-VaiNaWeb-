@@ -1,0 +1,97 @@
+// Cores (Saúde, Bem-estar e Tecnologia)
+$cor-tecnologia: #00aaff;
+$cor-sucesso: #278733;
+$cor-fundo-sucesso: #d4e7d6;
+$cor-texto-padrao: #333333;
+
+// Tipografia e Layout
+$fonte-inter: "Inter", sans-serif;
+$raio-tag: 10px;
+$borda-foto: 5px;
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+
+    img {
+      width: 300px;
+      border: $borda-foto solid $cor-tecnologia;
+      border-radius: 50%;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        font-family: $fonte-inter;
+      }
+    }
+  }
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h2 {
+    font-size: 16px;
+    color: $cor-sucesso;
+    font-weight: 500;
+    font-family: $fonte-inter;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: $fonte-inter;
+    color: $cor-texto-padrao;
+  }
+
+  .listaSkislls {
+    li {
+      font-size: 12px;
+      color: $cor-sucesso;
+      background-color: $cor-fundo-sucesso;
+      border-radius: $raio-tag;
+      padding: 8px 10px;
+    }
+  }
+}
+
+// Responsividade
+@media (max-width: 768px) {
+  .main {
+    section {
+      flex-direction: column;
+      text-align: center;
+
+      .ulInfo {
+        flex-direction: column;
+      }
+
+      .listaSkislls {
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+        li {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

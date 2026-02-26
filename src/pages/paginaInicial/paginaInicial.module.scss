@@ -1,0 +1,189 @@
+// Cores de Identidade (Regra do Desafio)
+$cor-confianca: #205691;
+$cor-impacto: #fd7267;
+$cor-confianca-dark: #122f97;
+$cor-branca: #ffffff;
+
+// Tipografia  Inter e Source Sans 3
+$fonte-titulos: "Source Sans 3", sans-serif;
+$fonte-corpo: "Inter", sans-serif;
+
+// Layout e Transições
+$max-width-site: 1279px;
+$gap-padrao: 20px;
+$raio-borda: 10px;
+$transicao-suave: all 0.25s ease;
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 3px;
+  padding: 0 20px;
+  height: auto;
+  max-width: 1279px;
+  width: 100%;
+
+  img {
+    flex: 1;
+    display: block;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 1;
+  }
+}
+
+.Info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-shrink: 0;
+
+  h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: clamp(40px, 5vw, 90px);
+    color: #205691;
+    max-width: 45rem;
+    line-height: 1.1;
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 400;
+    color: #205691;
+    max-width: 45rem;
+  }
+
+  button {
+    max-width: 320px;
+    width: 100%;
+    padding: 14px 0;
+    background-color: #fd7267;
+    color: #fff;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 12px rgba(253, 114, 103, 0.35);
+    transition: all 0.25s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(253, 114, 103, 0.45);
+      filter: brightness(1.05);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 8px rgba(253, 114, 103, 0.3);
+    }
+  }
+}
+
+.infoDados {
+  display: flex;
+  justify-content: space-evenly;
+
+  h2,
+  h3 {
+    color: #205691;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px;
+
+    img {
+      max-width: 520px;
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  .Info {
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      margin: 20px 0;
+      font-size: 18px;
+    }
+  }
+
+  .infoDados article {
+    width: 100%;
+    max-height: 70px;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Info h1 {
+    font-size: 36px;
+  }
+
+  .Info p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .infoDados {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .infoDados {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .infoDados article {
+    width: auto;
+  }
+}

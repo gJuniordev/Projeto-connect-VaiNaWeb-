@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </div>
 
-🚀 #**Plataforma Connect**
+#  🚀**Plataforma Connect**
 A Plataforma Connect é um ecossistema digital desenvolvido com React para centralizar e facilitar ações de impacto social. O projeto conecta usuários a oportunidades de mentoria, voluntariado e fluxos de doação, utilizando uma arquitetura moderna focada em performance e manutenibilidade.
 
 ---

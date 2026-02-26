@@ -73,3 +73,4 @@ npm run dev
 
 # 🤝**Autor**
 Desenvolvido por Gilcélio Júnior – Aula Vai na Web
+**Deploy:** https://projeto-connect-sepia.vercel.app/

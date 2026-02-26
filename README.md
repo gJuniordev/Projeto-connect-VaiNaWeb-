@@ -11,7 +11,7 @@ A Plataforma Connect é um ecossistema digital desenvolvido com React para centr
 
 ---
 
-🛠️ # **Stack Tecnológica**
+# 🛠️**Stack Tecnológica**
 O projeto foi construído utilizando as melhores práticas do ecossistema Front-end:
 
 React: Biblioteca core para construção de interfaces baseadas em componentes.

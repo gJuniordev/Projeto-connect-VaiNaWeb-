@@ -14,19 +14,19 @@ A Plataforma Connect é um ecossistema digital desenvolvido com React para centr
 # 🛠️**Stack Tecnológica**
 O projeto foi construído utilizando as melhores práticas do ecossistema Front-end:
 
-React: Biblioteca core para construção de interfaces baseadas em componentes.
-Sass (SCSS Modules): Utilizado para estilização modular, garantindo que o CSS de um componente (ex: header.module.scss) não afete outros elementos da página.
-JavaScript (ES6+): Lógica moderna para manipulação de estados e efeitos.
+- React: Biblioteca core para construção de interfaces baseadas em componentes.
+- Sass (SCSS Modules): Utilizado para estilização modular, garantindo que o CSS de um componente (ex: header.module.scss) não afete outros elementos da página.
+- JavaScript (ES6+): Lógica moderna para manipulação de estados e efeitos.
 
 ---
 
 # 📂**Organização e Arquitetura**
 A estrutura de pastas reflete uma preocupação com a escalabilidade do código:
 
-components/: UI dividida em unidades atômicas (Header, Footer, InfoCard).
-pages/: Views principais que compõem a navegação (Home, Doação, Mentoria, etc.).
-hook/: Centralização de lógicas customizadas para manter os componentes limpos.
-assets/: Organização de ativos estáticos divididos entre ícones e imagens.
+- components/: UI dividida em unidades atômicas (Header, Footer, InfoCard).
+- pages/: Views principais que compõem a navegação (Home, Doação, Mentoria, etc.).
+- hook/: Centralização de lógicas customizadas para manter os componentes limpos.
+- assets/: Organização de ativos estáticos divididos entre ícones e imagens.
 
 ---
 
@@ -34,16 +34,16 @@ assets/: Organização de ativos estáticos divididos entre ícones e imagens.
 Nesta seção, detalho algumas soluções implementadas que demonstram o domínio de lógica e reutilização de código:
 
 🪝 Custom Hook: useClickOutside
-Implementei este hook para gerenciar interações de fechamento de menus e modais de forma inteligente.
-Função: Detecta cliques fora de um elemento específico (referenciado via useRef) para disparar uma ação (como fechar um dropdown).
-Benefício: Melhora a experiência do usuário (UX) e evita repetição de lógica em múltiplos componentes.
+- Implementei este hook para gerenciar interações de fechamento de menus e modais de forma inteligente.
+- Função: Detecta cliques fora de um elemento específico (referenciado via useRef) para disparar uma ação (como fechar um dropdown).
+- Benefício: Melhora a experiência do usuário (UX) e evita repetição de lógica em múltiplos componentes.
 
 ---
 
 # 🍱**Componente: InfoCard**
 Um componente versátil e estilizado via SCSS Modules.
-Flexibilidade: Projetado para receber diferentes conteúdos e ícones, sendo utilizado em diversas áreas da plataforma (Mentoria, Voluntariado, etc).
-Encapsulamento: O uso de .module.scss garante que o design do card seja consistente e imune a vazamentos de estilo globais.
+- Flexibilidade: Projetado para receber diferentes conteúdos e ícones, sendo utilizado em diversas áreas da plataforma (Mentoria, Voluntariado, etc).
+- Encapsulamento: O uso de .module.scss garante que o design do card seja consistente e imune a vazamentos de estilo globais.
 
 ---
 

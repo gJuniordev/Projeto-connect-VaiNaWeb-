@@ -9,6 +9,7 @@
 
 <img width="1897" height="935" alt="image" src="https://github.com/user-attachments/assets/e5fa2ef2-4f44-4948-b3a0-fb9f93ff73f3" />
 
+
 **Deploy:** https://projeto-connect-sepia.vercel.app/
 
 #  🚀**Plataforma Connect**
